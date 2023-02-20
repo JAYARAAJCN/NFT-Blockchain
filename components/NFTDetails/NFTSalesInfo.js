@@ -55,10 +55,10 @@ const NFTSalesInfo = ({price, buyNFT}) => {
               <BsCreditCard2FrontFill className={style.buttonIcon} />
               <span className='text-lg font-semibold'>Buy Now</span>
             </div>
-            <div  className={`${style.button} ${style.offerButton}`}>
+            { /* <div  className={`${style.button} ${style.offerButton}`}>
               <BsFillTagFill className={style.buttonIcon}/>
               <span className='text-lg font-semibold'>Make Offer</span>
-            </div>
+  </div> */}
           </div>
         </div>
       </div>
